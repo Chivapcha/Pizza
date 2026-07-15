@@ -20,12 +20,12 @@ public class GameManager : MonoBehaviour
         updateScore();
         updateHighScore();
 
-        GameObject.Find("MusicClass").GetComponent<MusicClass>().PlayMusic();
+        GameObject.Find("MusicPlayer").GetComponent<MusicPlayer>().PlayMusic(); // music seamlessly continues when restarting
     }
 
-    public void addPoints(int n)
+    public void addPoints(int pts)
     {
-        score += n;
+        score += pts;
         updateScore();
     }
 
@@ -48,9 +48,9 @@ public class GameManager : MonoBehaviour
     {
         if (score > highScore)
         {
-            PlayerPrefs.SetInt("highscore", score); // à la fin du jeu on vérifie si c'est le meilleur score
+            PlayerPrefs.SetInt("highscore", score); // in the end of the game the highscore is checked and updated if > than the old one
         }
 
-        restart.gameObject.SetActive(true); // on affiche le bouton restart
+        restart.gameObject.SetActive(true); // the restart button is showed
     }
 }

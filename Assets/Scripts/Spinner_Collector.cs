@@ -28,11 +28,11 @@ public class Spinner_Collector : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerAudio = other.GetComponent<AudioSource>(); // we set the audio source so that the sound comes from the player
+            playerAudio = other.GetComponent<AudioSource>(); // we set the audio source so that the collect sound comes from the player
             playerAudio.PlayOneShot(pickupSound, volume);
             Instantiate(collectEffect, transform.position, transform.rotation);
             // Debug.Log("Object collected : rank " + points);
-            gameManager.addPoints(points); // ScoreManager.cs
+            gameManager.addPoints(points); // GameManager.cs
 
             Destroy(gameObject);
         }
