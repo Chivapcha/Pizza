@@ -7,6 +7,8 @@ public class Spawner : MonoBehaviour
     public int borderTop = 30; // ending point (may make that the finish line position later)
     public int borderBottom = 2; // starting point
     public int distanceBetween = 3;
+    public GameObject ingredient;
+    private GameObject clone;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,15 +24,11 @@ public class Spawner : MonoBehaviour
                 Vector3 position = new Vector3(posX, 0.5f, posZ); // pos is random x, defined y and actual z
                 GameObject foodItem = food[Random.Range(0, food.Length)]; // we choose a random food
 
-                Instantiate(foodItem, position, foodItem.transform.rotation);
+                clone = Instantiate(foodItem, position, foodItem.transform.rotation);
+                clone.name = foodItem.name; // to get the pizza ingredient shown correctly in the Spinner_Collector script
+                // there is probably a better way to do so though
             }
             posZ++;
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

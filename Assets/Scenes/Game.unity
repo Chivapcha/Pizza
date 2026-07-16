@@ -361,6 +361,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7fc07284e35d26a4d8a9f30cb11dc115, type: 3}
   m_PrefabInstance: {fileID: 110303473}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &110969483 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 51bfa599c7a8734409db134337edfa29, type: 3}
+  m_PrefabInstance: {fileID: 857979547}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &163126550
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 163126551}
   m_Layer: 0
-  m_Name: PizzaRottenMushrooms
+  m_Name: pizzaMushroomsRotten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -385,7 +390,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163126550}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -393,7 +398,7 @@ Transform:
   - {fileID: 62563621}
   - {fileID: 61233080}
   - {fileID: 281317585}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1276279491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &176343470
 PrefabInstance:
@@ -849,6 +854,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &277211598 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
+  m_PrefabInstance: {fileID: 876100029}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &280315976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,7 +1088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 289590830}
   m_Layer: 0
-  m_Name: PizzaChickens
+  m_Name: pizzaChicken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1092,7 +1102,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289590829}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1100,7 +1110,7 @@ Transform:
   - {fileID: 765445607}
   - {fileID: 1651318555}
   - {fileID: 681016540}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1276279491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &313007229
 PrefabInstance:
@@ -1878,7 +1888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 468671784}
   m_Layer: 0
-  m_Name: PizzaOlives
+  m_Name: pizzaOlives
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1892,7 +1902,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468671783}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1905,7 +1915,7 @@ Transform:
   - {fileID: 695859553}
   - {fileID: 1288899278}
   - {fileID: 422451373}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1276279491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &471951875
 GameObject:
@@ -2290,7 +2300,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1276279491}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b7468c510bc72cc498dc13aba43cedb7, type: 3}
       propertyPath: m_LocalScale.x
@@ -2326,11 +2336,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b7468c510bc72cc498dc13aba43cedb7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b7468c510bc72cc498dc13aba43cedb7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b7468c510bc72cc498dc13aba43cedb7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2354,7 +2364,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2d02781ba427ae54396dfd3b14599f54, type: 2}
     - target: {fileID: 919132149155446097, guid: b7468c510bc72cc498dc13aba43cedb7, type: 3}
       propertyPath: m_Name
-      value: pizzaSauce
+      value: pizzaTomato
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b7468c510bc72cc498dc13aba43cedb7, type: 3}
       propertyPath: m_IsActive
@@ -2985,6 +2995,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &837053831 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b7468c510bc72cc498dc13aba43cedb7, type: 3}
+  m_PrefabInstance: {fileID: 668184573}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &839981794
 GameObject:
   m_ObjectHideFlags: 0
@@ -3045,13 +3060,14 @@ MonoBehaviour:
   borderTop: 30
   borderBottom: 2
   distanceBetween: 3
+  ingredient: {fileID: 0}
 --- !u!1001 &857979547
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1276279491}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 51bfa599c7a8734409db134337edfa29, type: 3}
       propertyPath: m_LocalScale.x
@@ -3087,7 +3103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 51bfa599c7a8734409db134337edfa29, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 51bfa599c7a8734409db134337edfa29, type: 3}
       propertyPath: m_LocalRotation.z
@@ -3111,7 +3127,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 51bfa599c7a8734409db134337edfa29, type: 3}
       propertyPath: m_Name
-      value: PizzaDough
+      value: pizzaDough
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51bfa599c7a8734409db134337edfa29, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51bfa599c7a8734409db134337edfa29, type: 3}
+      propertyPath: m_TagString
+      value: dough
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3124,7 +3148,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1276279491}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
       propertyPath: m_LocalScale.x
@@ -3160,11 +3184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3184,7 +3208,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e3dcbe77a6ac60e4585c8fb4ebb8315f, type: 2}
     - target: {fileID: 919132149155446097, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
       propertyPath: m_Name
-      value: pizzaRottenCheese
+      value: pizzaCheeseRotten
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
       propertyPath: m_IsActive
@@ -3228,6 +3252,11 @@ Transform:
   - {fileID: 471951879}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1001634085 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
+  m_PrefabInstance: {fileID: 1261250588}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1165037473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3390,7 +3419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1240916436}
   m_Layer: 0
-  m_Name: PizzaBasils
+  m_Name: pizzaBasil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3404,7 +3433,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240916435}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3414,7 +3443,7 @@ Transform:
   - {fileID: 325397991}
   - {fileID: 313007230}
   - {fileID: 1466289129}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1276279491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1250321334
 PrefabInstance:
@@ -3500,19 +3529,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1276279491}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.6443651
+      value: 1.6443652
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.6443651
+      value: 1.6443652
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.6443651
+      value: 1.6443652
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8b5e810cc8a1194fbee23c374a09e08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3708,6 +3737,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274640960}
   m_CullTransparentMesh: 1
+--- !u!1 &1276279490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1276279491}
+  - component: {fileID: 1276279492}
+  m_Layer: 0
+  m_Name: Pizza
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1276279491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276279490}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 110969483}
+  - {fileID: 837053831}
+  - {fileID: 1001634085}
+  - {fileID: 277211598}
+  - {fileID: 1945792823}
+  - {fileID: 1801153020}
+  - {fileID: 1240916436}
+  - {fileID: 468671784}
+  - {fileID: 2100780154}
+  - {fileID: 163126551}
+  - {fileID: 289590830}
+  - {fileID: 1486072698}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1276279492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276279490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44d59cd8ca1c5842ae7bb6f6e03abd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PizzaController
 --- !u!1001 &1277244716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4165,7 +4250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486072698}
   m_Layer: 0
-  m_Name: PizzaRottenChickens
+  m_Name: pizzaChickenRotten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4179,7 +4264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486072697}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4187,7 +4272,7 @@ Transform:
   - {fileID: 1165037474}
   - {fileID: 176343471}
   - {fileID: 573404849}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1276279491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1520120948
 PrefabInstance:
@@ -4335,7 +4420,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PizzaPineapple (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4833575449559645364, guid: 5dd42fc3b1fb43e4a9d9941b740c06a4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4776,7 +4862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1801153020}
   m_Layer: 0
-  m_Name: PizzaPineapples
+  m_Name: pizzaPineapple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4790,7 +4876,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801153019}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4798,7 +4884,7 @@ Transform:
   - {fileID: 1975883830}
   - {fileID: 2136859471}
   - {fileID: 1522634091}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1276279491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1903320183
 PrefabInstance:
@@ -4884,7 +4970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1945792823}
   m_Layer: 0
-  m_Name: PizzaPepperronis
+  m_Name: pizzaPepperroni
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4898,7 +4984,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945792822}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4906,7 +4992,7 @@ Transform:
   - {fileID: 1631960751}
   - {fileID: 387292311}
   - {fileID: 1719966742}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1276279491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1975883829
 PrefabInstance:
@@ -4976,7 +5062,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PizzaPineapple
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4833575449559645364, guid: 5dd42fc3b1fb43e4a9d9941b740c06a4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4996,7 +5083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2100780154}
   m_Layer: 0
-  m_Name: PizzaMushrooms
+  m_Name: pizzaMushrooms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5010,7 +5097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100780153}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5019,7 +5106,7 @@ Transform:
   - {fileID: 1520120949}
   - {fileID: 664114548}
   - {fileID: 110303474}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1276279491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2136859470
 PrefabInstance:
@@ -5089,7 +5176,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PizzaPineapple (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4833575449559645364, guid: 5dd42fc3b1fb43e4a9d9941b740c06a4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5326,15 +5414,4 @@ SceneRoots:
   - {fileID: 221308054}
   - {fileID: 1354482774}
   - {fileID: 4921341212351266056}
-  - {fileID: 857979547}
-  - {fileID: 668184573}
-  - {fileID: 1261250588}
-  - {fileID: 876100029}
-  - {fileID: 1945792823}
-  - {fileID: 1801153020}
-  - {fileID: 1240916436}
-  - {fileID: 468671784}
-  - {fileID: 2100780154}
-  - {fileID: 163126551}
-  - {fileID: 289590830}
-  - {fileID: 1486072698}
+  - {fileID: 1276279491}

@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ea8977f87cf39ed4ab09bc267689daef, type: 3}
       propertyPath: m_LocalScale.x
-      value: -0.11940908
+      value: 0.11940911
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ea8977f87cf39ed4ab09bc267689daef, type: 3}
       propertyPath: m_LocalScale.y
-      value: -0.010993905
+      value: 0.010993908
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ea8977f87cf39ed4ab09bc267689daef, type: 3}
       propertyPath: m_LocalScale.z
-      value: -0.11940908
+      value: 0.11940911
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ea8977f87cf39ed4ab09bc267689daef, type: 3}
       propertyPath: m_LocalPosition.x
@@ -59,6 +59,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ea8977f87cf39ed4ab09bc267689daef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -123
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ea8977f87cf39ed4ab09bc267689daef, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: ea8977f87cf39ed4ab09bc267689daef, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -105,6 +109,7 @@ MonoBehaviour:
   volume: 0.4
   pickupSound: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
   collectEffect: {fileID: 3655534939648197250, guid: 155410a7086d1d34ca48c448dfc33156, type: 3}
+  ingredientsToShow: []
 --- !u!65 &-1628668273581541539
 BoxCollider:
   m_ObjectHideFlags: 0

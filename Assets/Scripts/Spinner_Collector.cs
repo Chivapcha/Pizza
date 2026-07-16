@@ -3,19 +3,21 @@ using UnityEngine;
 
 public class Spinner_Collector : MonoBehaviour
 {
-    public int points;
+    public int points; // is set in the inspector window
     public float speed = 40.0f;
     public float volume = 0.5f;
-    private AudioSource playerAudio;
     public AudioClip pickupSound;
-    private GameManager gameManager;
-
     public ParticleSystem collectEffect;
+    private AudioSource playerAudio;
+
+    private GameManager gameManager;
+    private PizzaController pizzaController;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        pizzaController = GameObject.Find("Pizza").GetComponent<PizzaController>();
     }
 
     // Update is called once per frame
@@ -33,6 +35,7 @@ public class Spinner_Collector : MonoBehaviour
             Instantiate(collectEffect, transform.position, transform.rotation);
             // Debug.Log("Object collected : rank " + points);
             gameManager.addPoints(points); // GameManager.cs
+            pizzaController.ShowIngredient(name); // enables the ingredient collected on the pizza at the finish line in PizzaController.cs
 
             Destroy(gameObject);
         }
