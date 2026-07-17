@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject[] food;
-    public float borderLR = 2.3f;
-    public int borderTop = 30; // ending point (may make that the finish line position later)
-    public int borderBottom = 2; // starting point
-    public int distanceBetween = 3;
-    public GameObject ingredient;
+    [SerializeField] GameObject[] food;
+    [SerializeField] float borderLR = 2.3f;
+    [SerializeField] int borderTop = 30; // ending point (may make that the finish line position later)
+    [SerializeField] int borderBottom = 2; // starting point
+    [SerializeField] int distanceBetween = 3; // distance between ingredients spawning
     private GameObject clone;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

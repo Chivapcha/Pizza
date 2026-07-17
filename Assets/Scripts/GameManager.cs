@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI highScoreText;
+    [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] TextMeshProUGUI highScoreText;
+    [SerializeField] Button restart;
     private int score;
     private int highScore;
-    public Button restart;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,34 +17,34 @@ public class GameManager : MonoBehaviour
         highScore = PlayerPrefs.GetInt("highscore");
         score = 0;
 
-        updateScore();
-        updateHighScore();
+        UpdateScore();
+        UpdateHighScore();
 
         GameObject.Find("MusicPlayer").GetComponent<MusicPlayer>().PlayMusic(); // music seamlessly continues when restarting
     }
 
-    public void addPoints(int pts)
+    public void AddPoints(int pts) // adds the points to the score and updates the UI
     {
         score += pts;
-        updateScore();
+        UpdateScore();
     }
 
-    public void updateScore()
+    public void UpdateScore()
     {
         scoreText.text = "Score : " + score;
     }
 
-    public void updateHighScore()
+    public void UpdateHighScore()
     {
         highScoreText.text = "High score : " + highScore;
     }
 
-    public void loadScene()
+    public void LoadGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void gameOver()
+    public void GameOver()
     {
         if (score > highScore)
         {

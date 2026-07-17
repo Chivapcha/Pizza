@@ -1,18 +1,12 @@
-using Unity.VisualScripting;
-using UnityEditorInternal;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
-
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 1.0f;
-    public float border = 2.3f;
     public bool gameOver;
-    public GameObject finishLine;
-    public GameManager gameManager;
-    public Animator animator;
+    [SerializeField] float speed = 1.0f;
+    [SerializeField] GameObject finishLine;
+    [SerializeField] Animator animator;
+    private GameManager gameManager;
     private InputSystem_Actions controls; // initialize the InputActions script
     private float horizontalInput;
 
@@ -48,21 +42,20 @@ public class PlayerController : MonoBehaviour
         // if the player is not at the finish line they can move
         if (transform.position.z < finishLine.transform.position.z)
         {
-            // if we wanna move left/right AND we're not at the border then we move left/right
-            transform.Translate(Vector3.forward * speed * speedCoeff() * Time.deltaTime); // going forward a bit slower to normalize the speed
+            transform.Translate(Vector3.forward * speed * SpeedCoeff() * Time.deltaTime); // going forward with the SpeedCoeff calculated
             transform.Translate(Vector3.right * horizontalInput * Time.deltaTime); // going left or right
         }
         else // if the player is at the finish line the game is over
         {
             gameOver = true;
-            gameManager.gameOver();
+            gameManager.GameOver();
             animator.SetBool("isGameOver", true);
         }
     }
 
-    float speedCoeff()
+    float SpeedCoeff() // returns 1 if going straight or 0.7 if going sidewards in order to normalize the speed
     {
         if (horizontalInput == 0) return 1;
-        else return 0.7f; // if the player is going sidewards the horizontal input is normalized
+        else return 0.7f;
     }
 }

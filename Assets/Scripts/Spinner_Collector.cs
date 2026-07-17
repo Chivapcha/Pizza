@@ -1,14 +1,13 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Spinner_Collector : MonoBehaviour
 {
     public int points; // is set in the inspector window
-    public float speed = 40.0f;
-    public float volume = 0.5f;
-    public AudioClip pickupSound;
-    public ParticleSystem collectEffect;
-    private AudioSource playerAudio;
+    [SerializeField] float speed = 40.0f;
+    [SerializeField] float volume = 0.5f;
+    [SerializeField] AudioClip pickupSound;
+    [SerializeField] ParticleSystem collectEffect;
+    [SerializeField] AudioSource playerAudio;
 
     private GameManager gameManager;
     private PizzaController pizzaController;
@@ -34,7 +33,7 @@ public class Spinner_Collector : MonoBehaviour
             playerAudio.PlayOneShot(pickupSound, volume);
             Instantiate(collectEffect, transform.position, transform.rotation);
             // Debug.Log("Object collected : rank " + points);
-            gameManager.addPoints(points); // GameManager.cs
+            gameManager.AddPoints(points); // GameManager.cs
             pizzaController.ShowIngredient(name); // enables the ingredient collected on the pizza at the finish line in PizzaController.cs
 
             Destroy(gameObject);

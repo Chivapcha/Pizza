@@ -491,11 +491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 854df66953c81a34695416e6fbb916b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  speed: 1
-  border: 2.3
   gameOver: 0
+  speed: 1
   finishLine: {fileID: 1534479204}
-  gameManager: {fileID: 0}
   animator: {fileID: 0}
 --- !u!65 &185594406
 BoxCollider:
@@ -727,7 +725,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 744456691}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: loadScene
+        m_MethodName: LoadGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3060,7 +3058,6 @@ MonoBehaviour:
   borderTop: 30
   borderBottom: 2
   distanceBetween: 3
-  ingredient: {fileID: 0}
 --- !u!1001 &857979547
 PrefabInstance:
   m_ObjectHideFlags: 0

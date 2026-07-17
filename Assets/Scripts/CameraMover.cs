@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CameraMover : MonoBehaviour
 {
-    public GameObject player;
+    [SerializeField] GameObject player;
     private Vector3 offset;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
